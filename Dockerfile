@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk17:alpine
+FROM openjdk:17-alpine
 
 # Environment variables
 ENV ANDROID_SDK_ROOT /opt/android-sdk
